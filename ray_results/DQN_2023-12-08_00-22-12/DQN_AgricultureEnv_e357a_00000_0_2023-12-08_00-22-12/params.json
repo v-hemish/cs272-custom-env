@@ -1,0 +1,11 @@
+{
+  "env": "AgricultureEnv",
+  "framework": "tf",
+  "n_step": 5,
+  "noisy": true,
+  "num_atoms": 2,
+  "num_gpus": 0,
+  "num_workers": 7,
+  "v_max": 40.0,
+  "v_min": -10.0
+}

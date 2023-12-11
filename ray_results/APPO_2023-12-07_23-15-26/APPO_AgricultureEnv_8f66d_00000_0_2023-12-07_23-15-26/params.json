@@ -1,0 +1,6 @@
+{
+  "env": "AgricultureEnv",
+  "framework": "tf",
+  "num_gpus": 0,
+  "num_workers": 7
+}

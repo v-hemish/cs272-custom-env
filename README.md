@@ -42,12 +42,27 @@ An episode terminates under two conditions:
 1. The crop reaches full growth, indicating a successful harvest.
 2. Both water and nutrient reserves fall below critical levels, signifying resource depletion.
 
+
 ## Results
-The results section should include detailed analysis and visualizations such as:
-- **Learning Curves**: Displaying the agent's performance over time.
-- **Resource Usage**: Graphs showing the efficiency in water and nutrient utilization.
-- **Comparison to Baselines**: Comparing the RL agent's performance with traditional, non-RL methods.
-- **Episode Length Analysis**: Insights into the average duration of episodes and the conditions leading to their termination.
+The results section includes detailed analysis and visualizations of the performance of various Reinforcement Learning algorithms used in the project. For each algorithm, we provide a combined visualization of both the mean and maximum rewards achieved during training.
+
+### Proximal Policy Optimization (PPO)
+![PPO Rewards](images/PPO.JPG)
+![PPO Rewards](images/PPO_2.JPG)
+
+### Soft Actor-Critic (SAC)
+![SAC Rewards](images/SAC.JPG)
+
+### Behavioral Cloning (BC)
+![BC Rewards](images/BC.JPG)
+
+### Deep Q Networks (DQN)
+![PPO Rewards](images/PPO.JPG)
+![PPO Rewards](images/PPO_2.JPG)
+
+### Asynchronous Proximal Policy Optimization (APPO)
+![APPO Rewards](images/APPO.JPG)
 
 ## Conclusion
 This project demonstrates the potential of Reinforcement Learning in agriculture management, showcasing how intelligent agents can optimize resource usage and crop growth. The environment and algorithms used here could be further extended to other domains of resource management and environmental control.
+

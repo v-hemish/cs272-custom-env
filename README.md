@@ -34,10 +34,10 @@ The project leverages various algorithms from Ray RLlib, such as Proximal Policy
 ## Training Process
 The training process involves iterative learning, with each iteration improving the agent's policy based on its performance in the environment. The training stops after a predefined number of iterations or once the agent consistently achieves a high reward.
 
-## Starting State [if applicable]
+## Starting State 
 Each episode starts with a predefined neutral state where the soil moisture and nutrient levels are set at 0.5, and the reserves for water and nutrients are full. The crop begins at the initial growth stage.
 
-## Episode End [if applicable]
+## Episode End 
 An episode terminates under two conditions:
 1. The crop reaches full growth, indicating a successful harvest.
 2. Both water and nutrient reserves fall below critical levels, signifying resource depletion.
